@@ -4,7 +4,7 @@ pipeline{
         stage('Poll Config file changes from GitHub')
         {
             steps{
-                echo 'Pulling code form Git'
+                echo 'Fetch Config file changes from GitHub'
                 git branch: 'main', credentialsId: 'df8d2f9a-b1f5-43ae-a31c-fa4e163c1bf4', url: 'https://github.com/shibkali-bera/POC_GIT_SNOW_Integration.git'
             }
         }
