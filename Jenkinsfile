@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('Git SCM')
+        stage('Poll Config file changes from GitHub')
         {
             steps{
                 echo 'Pulling code form Git'
@@ -32,12 +32,12 @@ pipeline{
             }
         }
         
-        stage('Service Now')
+        stage('Create Incident In SNOW')
         {
             steps{
                 echo 'Creating Incident ID'
-                sh 'echo \"{\'short_description\':\'`date` High CPU usage\',\'urgency\':\'2\',\'impact\':\'2\'}\" > mydata.json'
-				sh 'curl https://dev51182.service-now.com/api/now/table/incident -X POST -H Accept:application/json -H Content-Type:application/json --data @mydata.json --user admin:gVlCBvfE4aZ1'
+                sh 'echo \"{\'short_description\':\'`date` Test Incident Short Description\',\'urgency\':\'3\',\'impact\':\'2\'}\" > mydata.json'
+		sh 'curl https://dev51182.service-now.com/api/now/table/incident -X POST -H Accept:application/json -H Content-Type:application/json --data @mydata.json --user admin:gVlCBvfE4aZ1'
                 //echo '=========================Response===================' + response
             }
         }
