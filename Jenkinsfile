@@ -41,6 +41,14 @@ pipeline{
                 //echo '=========================Response===================' + response
             }
         }
+	    
+	stage('Run sanity check')
+        {
+            steps{
+                echo 'Sanity check'
+                sh 'echo \"{`date` Sanity test\'}\" > demo.txt'
+            }
+        }
         
     }
 }
