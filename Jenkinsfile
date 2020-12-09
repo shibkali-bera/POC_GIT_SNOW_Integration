@@ -42,11 +42,5 @@ pipeline{
             }
         }
         
-        stage('Clean Workspace')
-        {
-            steps{
-                sh 'rm -rf $WORKSPACE/*'
-            }
-        }
     }
 }
