@@ -1,0 +1,121 @@
+    1  git clone https://github.com/shibkali-bera/POC_GIT_SNOW_Integration.git/
+    2  dir
+    3  cd POC_GIT_SNOW_Integration/
+    4  dir
+    5  vi test.txt
+    6  git add .
+    7  git push - m "second commit"
+    8  git status
+    9  git commit -m "demo"
+   10  git init
+   11  git clone https://github.com/shibkali-bera/POC_GIT_SNOW_Integration.git/
+   12  git clone https://github.com/shibkali-bera/POC_GIT_SNOW_Integration.git
+   13  git remote -v
+   14  git init
+   15  sshkeygen
+   16  ssh-keygen
+   17  cat .ssh/id_rsa/sshkey.pub
+   18  cat ~/.ssh/id_rsa/sshkey.pub
+   19  cat ~/.ssh/sshkey.pub
+   20  cd c/Users/sagar/.ssh
+   21  cd /c/Users/sagar/.ssh/id_rsa
+   22  cd ~/c/Users/sagar/.ssh/id_rsa
+   23  cd ~/.ssh/id_rsa
+   24  cd ~/.ssh
+   25  cd ~/.ssh
+   26  pwd
+   27  cd ~/.ssh
+   28  ssh-keygen
+   29  ssh-keygen
+   30  cat ~/.ssh/id_rsa.pub
+   31  git clone https://github.com/shibkali-bera/POC_DnADevOps_Integration.git
+   32  dir
+   33  cd POC_DnADevOps_Integration/
+   34  dir
+   35  cd Demo 
+   36  cat Demo
+   37  vi Demo 
+   38  cat Demo 
+   39  git add .
+   40  git commit -m "adding line"
+   41  git status
+   42  git checkout -b dev
+   43  git status
+   44  git commit -m "adding line"
+   45  git conig --global user.email "shibkalibera@gmail.com"
+   46  git config --global user.email "shibkalibera@gmail.com"
+   47  git config --global user.name "shibkali"
+   48  git commit -m "adding line"
+   49  git push origin dev
+   50  git fetch
+   51  git checkout master
+   52  git checout main
+   53  git checkout main
+   54  git merge dev
+   55  git push -u origin main
+   56  dir
+   57  git status
+   58  git branch dev
+   59  git checkout dev
+   60  dir
+   61  vi demo
+   62  git add .
+   63  git commit -m "Another line"
+   64  git push -u origin dev
+   65  git checkout main
+   66  git merge dev
+   67  git push - origin main
+   68  git push -u origin main
+   69  git status
+   70  git add.
+   71  git add .
+   72  git commit -m "new project"
+   73  git push -u origin
+   74  dir
+   75  rm Demo
+   76  dir
+   77  git add .
+   78  git commit -m "remove demo"
+   79  git push -u origin
+   80  git checkout -b dev
+   81  git checkout dev
+   82  dir
+   83  dir
+   84  git add .
+   85  git commit -m "moving to dev"
+   86  git status
+   87  git fetch origin
+   88  git pull origin main
+   89  git push dev
+   90  git push origin dev
+   91  git push -u origin
+   92  dir
+   93  git pull dev
+   94  git fetch origin
+   95  dir
+   96  git fetch origin dev
+   97  dir
+   98  git fetch dev
+   99  git pull origin dev
+  100  dir
+  101  rename Jenkinfiles Jenkinsfile
+  102  mv Jenkinfiles Jenkinsfile
+  103  git add .
+  104  git commit -m "adding Jenkinsfile"
+  105  git push -u origin dev
+  106  ssh devops@3.214.97.123
+  107  git init
+  108  ls
+  109  pwd
+  110  git branch
+  111  git clone https://github.com/shibkali-bera/POC_GIT_SNOW_Integration.git
+  112  dir
+  113  pwd
+  114  git branch
+  115  ls
+  116  cd POC_GIT_SNOW_Integration
+  117  git branch
+  118  cear
+  119  clear
+  120  history
+  121  history > command.txt
